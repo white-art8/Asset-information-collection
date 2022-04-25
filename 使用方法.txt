@@ -1,0 +1,9 @@
+需要安装驱动chromedriver.exe（与谷歌浏览器的版本对应）到Python的文件夹
+
+关于Selenium的chromedriver.exe驱动的使用。chromedriver.exe驱动需要下载，并放到Python的文件夹下。
+驱动的版本需要与计算机的谷歌浏览器版本对应，才能自动化启动谷歌浏览器，使网络爬虫程序成功运行。
+如果计算机上的谷歌浏览器自动更新后，chromedriver.exe驱动需要同步更新，不然Web爬虫程序无法启动浏览器。
+chromedriver.exe驱动更新的网址：https:// sites.google.com /a/chromium.org /chromedriver/downloads/version-selection。
+
+use：
+ 在cmd窗口，执行 python asset-collect.py
